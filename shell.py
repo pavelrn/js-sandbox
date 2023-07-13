@@ -1,7 +1,7 @@
 import socket,os,subprocess
 
 s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-s.bind(("0.0.0.0",44422))
+s.bind(("0.0.0.0",28769))
 s.listen(5)
 while True:
   c,a=s.accept()
